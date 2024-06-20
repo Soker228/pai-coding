@@ -31,6 +31,7 @@ public class MdcAspect implements ApplicationContextAware {
     private ExpressionParser parser = new SpelExpressionParser();
     private ParameterNameDiscoverer parameterNameDiscoverer = new DefaultParameterNameDiscoverer();
 
+    // 拦截所有被 MdcDot 注解的方法,以及所有在被 MdcDot注解的类中的方法
     @Pointcut("@annotation(MdcDot) || @within(MdcDot)")
     public void getLogAnnotation() {
     }
