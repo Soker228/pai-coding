@@ -19,6 +19,7 @@ import java.util.Set;
  * @author 沉默王二
  * @date 3/27/23
  */
+// 表明该类是一个单元测试
 @SpringBootTest(classes = QuickForumApplication.class)
 public class RedisTemplateDemo {
     @Autowired
