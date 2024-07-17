@@ -30,6 +30,7 @@ import java.util.stream.IntStream;
 @Slf4j
 @Service
 public class UserActivityRankServiceImpl implements UserActivityRankService {
+
     private static final String ACTIVITY_SCORE_KEY = "activity_rank_";
 
     @Autowired
