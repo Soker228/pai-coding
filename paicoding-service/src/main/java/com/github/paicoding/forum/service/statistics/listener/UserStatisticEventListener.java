@@ -27,6 +27,7 @@ public class UserStatisticEventListener {
     @Resource
     private ArticleDao articleDao;
 
+
     /**
      * 用户操作行为，增加对应的积分
      *
