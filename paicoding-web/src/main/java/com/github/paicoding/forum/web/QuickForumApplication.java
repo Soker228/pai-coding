@@ -37,7 +37,7 @@ import java.util.List;
 @EnableAsync
 @EnableScheduling
 @EnableCaching
-@ServletComponentScan
+@ServletComponentScan //开启对Javaweb/servlet组件的支持(filter)
 @SpringBootApplication
 public class QuickForumApplication implements WebMvcConfigurer, ApplicationRunner {
     @Value("${server.port:8080}")
