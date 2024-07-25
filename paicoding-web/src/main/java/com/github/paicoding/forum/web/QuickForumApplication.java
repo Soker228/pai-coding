@@ -27,7 +27,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import javax.annotation.Resource;
 import java.util.List;
 
-
 /**
  * 入口，直接运行即可
  *
